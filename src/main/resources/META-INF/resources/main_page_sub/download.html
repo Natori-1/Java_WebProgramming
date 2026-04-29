@@ -45,13 +45,16 @@
 </head>
 <body>
 
-    <!-- 헤더 (Navbar) -->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-<div class="container-fluid">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+ <!-- 헤더 (Navbar) -->
+     <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <img src="/images/LOL.webp" alt="" width="30" height="24">
+        <!-- [변경] "Navbar" 텍스트 → 다크/라이트 토글 버튼-->
+     <button class="btn border-0" id="themeToggleBtn" onclick="toggleTheme()">
+     DARK
+     </button>
+
+ 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
@@ -87,12 +90,12 @@
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
       </li>
     </ul>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</div>
+        <form class="d-flex" id="searchForm">
+        <input class="form-control me-2" type="search" placeholder="챔피언, 뉴스검색..."aria-label="Search" id="searchInput">
+        <button class="btnbtn-outline-success" type="submit">검색하기</button>
+        </form> 
+    </div>
+ </div>
 </nav>
 
 <!-- 히어로 배너 (공식 페이지스타일) -->
@@ -191,6 +194,7 @@
         </div>
     </nav>
 -->
+
     </body>
     </head>
     </html>
