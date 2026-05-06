@@ -1,22 +1,15 @@
-자바스크립트 / 9주차 / 20250634
-< 네비게이션 바 토글, 데이터 베이스 연동 >
-<img width="922" height="778" alt="image" src="https://github.com/user-attachments/assets/e4af128b-20f0-436d-9c1c-7a60b06a838c" />
-<img width="933" height="567" alt="image" src="https://github.com/user-attachments/assets/9ae83cea-ab9a-423a-9529-f5fbf99e6060" />
+자바스크립트 / 10주차 / 20250634
+< 로그인/로그아웃 >
 
-1. 네비게이션 바 토글
-   function toggleTheme() {
-const body = document.body;
-const btn = document.getElementById('themeToggleBtn');
-const navbar = document.querySelector('.navbar');
-body.classList.toggle('light-mode');
-'LIGHT';
-if (body.classList.contains('light-mode')) {
-btn.textContent = ' Light ';
-navbar.classList.remove('navbar-dark', 'bg-dark');
-navbar.classList.add('navbar-light', 'bg-light');
-} else {
-btn.textContent = ' DARK';
-navbar.classList.remove('navbar-light', 'bg-light');
-navbar.classList.add('navbar-dark', 'bg-dark');
-}
-}
+실습1 >> 로그인 페이지 만들기
+login 폴더 -> login.html
+
+![alt text](image.png)
+
+실습2 >> 로그인 버튼 변경
+ 로그인 -> 로그아웃
+
+ ![alt text](image-1.png) 
+
+실습3 >> 데이터 베이스 연동 //사용자 아이디&비밀번호
+![alt text](image-2.png)
