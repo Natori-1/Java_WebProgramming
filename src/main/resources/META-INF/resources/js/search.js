@@ -76,3 +76,15 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     const query = document.getElementById('searchInput').value;
     performSearch(query);
 });
+
+const champions = [
+  {
+    name: '아트록스',
+    engName: 'Aatrox',
+    role: '전사',
+    lane: '탑',
+    img: 'images/Aatrox.png',
+    difficulty: '상',
+    modalId: 'modalAatrox'
+  }
+];
