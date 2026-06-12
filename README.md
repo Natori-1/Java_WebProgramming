@@ -1,10 +1,8 @@
-자바스크립트 / 12주차 / 20250634
-< 회원관리 페이지 >
+자바스크립트 / 13주차 / 20250634
+< 회원관리 페이지-2 >
 
-실습1 >> 네비 바 > 프로필 < 넣기
-<img width="394" height="47" alt="image" src="https://github.com/user-attachments/assets/99f52404-05d4-448b-983f-ffbff0a1a2e8" />
+실습1 >> 프로필 툴팁
+<img width="67" height="56" alt="image" src="https://github.com/user-attachments/assets/041d76a4-894b-421f-ae42-ab511c94e4e1" />
 
-실습2 >> 프로필 페이지
-<img width="290" height="284" alt="image" src="https://github.com/user-attachments/assets/48d200c1-9f20-4ee3-9d77-b4303382ef9a" />
-
-
+실습2 >> 회원정보 수정, 비밀번호 변경
+<img width="319" height="355" alt="image" src="https://github.com/user-attachments/assets/69a2000a-799a-4d5c-baaf-5b829b6806a3" />
